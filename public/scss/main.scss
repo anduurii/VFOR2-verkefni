@@ -1,0 +1,11 @@
+/* @use 'variables' as *; */ 
+@use 'base/reset';
+@use 'components/header';
+@use 'components/menu-card';
+
+main {
+    display: flex;
+    justify-content: center;    
+
+    padding: 20px;
+}

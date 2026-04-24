@@ -1,0 +1,56 @@
+/* @use 'variables' as *; */
+*,
+*::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 1rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+header a {
+  color: #fff;
+  padding: 5px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.menu-card {
+  border: 2px solid red;
+  border-radius: 10px 10px;
+  padding: 20px;
+}
+
+.item, .menu-title {
+  border-bottom: 1px solid black;
+  padding: 10px;
+}
+
+.item h2 {
+  color: red;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+/*# sourceMappingURL=styles.css.map */

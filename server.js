@@ -9,9 +9,17 @@ app.set('views', path.join(__dirname, 'src', 'views'));
 
 app.use(express.static(path.join(__dirname, 'public')));
 
+
+
 app.get('/', (req, res) => {
-    res.render('index', {title: 'test'});
+    res.render('index', {title: 'Matseðill'});
 });
+
+
+app.get('/gullfoss', (req, res) => {
+    res.render('gullfoss', {title: 'Gullfoss'});
+});
+
 
 app.listen(PORT, () => {
     console.log(`Server is running on http://localhost:${PORT}`);
